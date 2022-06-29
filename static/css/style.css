@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+    overflow-anchor: none;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('../fonts/font.woff2') format('woff2');
+}
+
+body, button, html, input, select, textarea {
+    font-family: 'Font';
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+p {}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+.animation {
+    animation: animation 1s infinite;
+}
+
+@keyframes animation {
+    0% {
+
+    }
+    50% {
+
+    }
+    100% {
+        
+    }
+}
+
+@media (max-width: 1000px) {
+
+}
